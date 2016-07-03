@@ -1,0 +1,41 @@
+/* Color palette
+ *  Primary text color: #274c5e
+ *  Highlight color: #dae9f4
+ *  Accent color: #77919d
+ *  Inactive color: #7f93b2
+ */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 1rem 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #274c5e;
+}
+
+.examples {
+  background-color: #dae9f4;
+  padding: 1em;
+}
+
+.examples--item {
+  font-family: monospace;
+  margin-top: 2em;
+}
+

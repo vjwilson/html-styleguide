@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML Styleguide</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <h1>HTML Styleguide</h1>
+    <p>This is an example of an HTML styleguide</p>
+    <p>This styleguide was inspired by <a href="https://isobar-idev.github.io/code-standards/">Isobar Front-end Code Standards</a>.</p>
+    <h2>Table of Contents</h2>
+    <ol>
+      <li><a href="#headings">Headings</a></li>
+      <li><a href="#paragraphs">Paragraphs</a></li>
+    </ol>
+    <h2><a name="headings">Headings</a></h2>
+    <p>Headings should be used to label the hierarchical sections of a document, not to display text in larger font sizes.</p>
+    <div class="examples">
+      <h3>Examples of headings</h3>
+      <dl>
+        <dt class="examples--item">&lt;h1&gt;<dt>
+        <dd>
+          <h1>Top-level heading.</h1>
+          <p>Every document must have one, and should only have one &lt;h1&gt; element. (In cases where there are multiple documents included on one physical webpage, for instance, in a list of blog posts, some people recommend that the title of each document in the list have an &lt;h1&gt; element for its title, because each document <em>could</em> stand on its own.)</p>
+        </dd>
+        <dt class="examples--item">&lt;h2&gt;</dt>
+        <dd>
+          <h2>Second-level heading</h2>
+          <p>Titles of sections within a document should be &lt;h2&gt; elements. These can be sub-sections of an article, or ancillary sections of a page, such as a sidebar with a title of "Related Articles" that lists other documents related to the main document of the page.</p>
+        </dd>
+        <dt class="examples--item">&lt;h3&gt;</dt>
+        <dd>
+          <h3>Third-level heading</h3>
+          <p>Titles of sections within any second-level sections should be &lt;h3&gt; elements. These can be sub-sections of an article, or parts of a ancillary sections of a page, for instance, the sections "Related Articles", "Latest Tweets", and "Categories" in a blog sidebar.</p>
+        </dd>
+        <dt class="examples--item">&lt;h4&gt;</dt>
+        <dd>
+          <h4>Fourth-level heading</h4>
+          <p>Titles of sections within any third-level sections should be &lt;h4&gt; elements.</p>
+        </dd>
+        <dt class="examples--item">&lt;h5&gt;</dt>
+        <dd>
+          <h5>Fifth-level heading</h5>
+          <p>Titles of sections within any fourth-level sections should be &lt;h5&gt; elements.</p>
+        </dd>
+        <dt class="examples--item">&lt;h6&gt;</dt>
+        <dd>
+          <h6>Sixth-level heading</h6>
+          <p>Titles of sections within any fifth-level sections should be &lt;h5&gt; elements.</p>
+        </dd>
+      </dl>
+    </div> <!-- /.examples -->
+    <h2><a name="paragraphs">Paragraphs</a></h2>
+    <p>Body copy should be wrapped in &lt;p&gt; tags. Breaks should be inserted by closing one &lt;p&gt; element and opening another. </p>
+    <p>Do not use &lt;br&gt; elements to insert line breaks in copy, except in cases where it is the simplest solution to display units of related information that normally appear on seperate lines, such as postal addresses.</p>
+    <div class="examples">
+      <h3>Examples of paragraphs</h3>
+      <dl>
+        <dt class="examples--item">&lt;p&gt;</dt>
+        <dd>
+          <p>This is one idea.</p>
+          <p>This is another idea.</p>
+        </dd>
+        <dt>&lt;br&gt;</dt>
+        <dd>
+          <p>This is a physical address:<br>
+             Trinity Church<br>
+             75 North Broadway<br>
+             New York, NY 10006</p>
+        </dd>
+      </dl>
+    </div> <!-- /.examples -->
+    <footer>
+      <p>Originally created by Van J. Wilson</p>
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+  </body>
+</html>
+
